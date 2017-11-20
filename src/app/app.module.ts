@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { EllipsisModule } from 'ngx-ellipsis';
+
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    EllipsisModule
   ],
   providers: [],
   bootstrap: [AppComponent]
