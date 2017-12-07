@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { EllipsisModule } from 'ngx-ellipsis';
+import {ResizableModule} from 'angular-resizable-element';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { EllipsisModule } from 'ngx-ellipsis';
   ],
   imports: [
     BrowserModule,
-    EllipsisModule
+    EllipsisModule,
+    ResizableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
