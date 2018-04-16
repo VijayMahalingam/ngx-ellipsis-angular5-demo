@@ -1,5 +1,14 @@
 .ellipsis-test {
   border: 1px solid red;
   box-sizing: border-box;
-  overflow:hidden;
+  height:100px;
+  width: 800px;
+}
+
+
+.inner {
+ overflow:hidden;
+ width: 100%;
+ height: 100%;
+ display: block;
 }
